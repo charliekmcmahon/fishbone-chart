@@ -1,8 +1,8 @@
 {
-  "name": "@charliekmc/fishbone-chart",
-  "version": "1.0.1",
+  "name": "@charliekmcmahon/fishbone-chart",
+  "version": "1.0.2",
   "description": "A fishbone (Ishikawa) diagram React component for root cause analysis.",
-  "author": "charliekmc",
+  "author": "charliekmcmahon",
   "license": "MIT",
   "repository": "charliekmc/fishbone-chart",
   "main": "dist/index.js",

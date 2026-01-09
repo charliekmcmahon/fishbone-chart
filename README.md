@@ -1,8 +1,8 @@
-# @charliekmcmahon/fishbone-chart
+# @charliekmc/fishbone-chart
 
 > A fishbone (Ishikawa) diagram React component for root cause analysis
 
-[![NPM](https://img.shields.io/npm/v/@charliekmcmahon/fishbone-chart.svg)](https://www.npmjs.com/package/@charliekmcmahon/fishbone-chart) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@charliekmc/fishbone-chart.svg)](https://www.npmjs.com/package/@charliekmc/fishbone-chart) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
 
 ![fishbonechart](https://user-images.githubusercontent.com/43149895/54030834-a40bb100-418b-11e9-8c41-2706b4ea0307.gif)
@@ -18,13 +18,13 @@ Original work © Thiago Ferraz, licensed under the MIT Licence.
 ## Install
 
 \`\`\`bash
-npm install --save @charliekmcmahon/fishbone-chart
+npm install --save @charliekmc/fishbone-chart
 \`\`\`
 
 ## Usage
 
 \`\`\`jsx
-import FishboneChart from '@charliekmcmahon/fishbone-chart'
+import FishboneChart from '@charliekmc/fishbone-chart'
 
 function Example() {
   const data = {
@@ -60,6 +60,6 @@ function Example() {
 
 ## Licence
 
-MIT © [Charlie McMahon](https://github.com/charliekmcmahon)
+MIT © [Charlie McMahon](https://github.com/charliekmc)
 
 Original work MIT © [Thiago Ferraz](https://github.com/thiagoferrax)

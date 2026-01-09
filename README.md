@@ -17,13 +17,13 @@ Original work © Thiago Ferraz, licensed under the MIT Licence.
 
 ## Install
 
-\`\`\`bash
+```bash
 npm install --save @charliekmc/fishbone-chart
-\`\`\`
+```
 
 ## Usage
 
-\`\`\`jsx
+```jsx
 import FishboneChart from '@charliekmc/fishbone-chart'
 
 function Example() {
@@ -56,10 +56,10 @@ function Example() {
     <FishboneChart data={data} />
   )
 }
-\`\`\`
+```
 
 ## Licence
 
-MIT © [Charlie McMahon](https://github.com/charliekmc)
+MIT © [Charlie McMahon](https://github.com/charliekmcmahon)
 
 Original work MIT © [Thiago Ferraz](https://github.com/thiagoferrax)

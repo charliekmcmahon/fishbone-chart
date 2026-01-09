@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fishbone-chart/static/css/main.8e19cb6b.css",
+    "main.js": "/fishbone-chart/static/js/main.10edd40e.js",
+    "index.html": "/fishbone-chart/index.html",
+    "main.8e19cb6b.css.map": "/fishbone-chart/static/css/main.8e19cb6b.css.map",
+    "main.10edd40e.js.map": "/fishbone-chart/static/js/main.10edd40e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e19cb6b.css",
+    "static/js/main.10edd40e.js"
+  ]
+}

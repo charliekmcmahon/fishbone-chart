@@ -7,22 +7,20 @@ const INITIAL_STATE = {causes: undefined, effect: undefined, index: 0}
 export default class FishboneChart extends Component {
     constructor(props) {
         super(props)
-        this.state = INITIAL_STATE
+        const data = props.data
+        if (data) {
+            const effect = Object.keys(data)[0]
+            this.state = { causes: data[effect], effect, index: 0 }
+        } else {
+            this.state = INITIAL_STATE
+        }
     }
 
-    componentWillMount() { 
-        const data = this.props.data
-        if(data) {
-            const effect = Object.keys(data)[this.state.index]            
-            this.setState({causes: data[effect], effect})
-        }        
-    }
-
-    componentWillReceiveProps(nextProps) {
-        if(this.props.data !== nextProps.data) {
-            const data = nextProps.data
+    componentDidUpdate(prevProps) {
+        if (this.props.data !== prevProps.data) {
+            const data = this.props.data
             const effect = Object.keys(data)[this.state.index]
-            this.setState({causes: data[effect], effect})
+            this.setState({ causes: data[effect], effect })
         }
     }
 

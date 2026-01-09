@@ -1,11 +1,7 @@
-import React, { Component } from 'react'
-
 import FishboneChart from 'fishbone-chart'
 
-export default class App extends Component {
-
-  render() {
-    const data = {
+export default function App() {
+  const data = {
       'Bad Coffee': {
         'Procedures': ['Too much water', 'Too many grounds', 'Lack of training'],
         'Equipment': ['Dirty cups', 'Coffee not hot enough', 'Dirty basket'],
@@ -30,13 +26,12 @@ export default class App extends Component {
       }
     }
 
-    return (
-      <div style={{ width: 1100, margin: "15px auto" }}>
-        <h1>FishboneChart Example</h1>
-        <hr/>
-        <br/>
-        <FishboneChart data={data} />
-      </div>
-    )
-  }
+  return (
+    <div style={{ width: 1100, margin: "15px auto" }}>
+      <h1>FishboneChart Example</h1>
+      <hr/>
+      <br/>
+      <FishboneChart data={data} />
+    </div>
+  )
 }
